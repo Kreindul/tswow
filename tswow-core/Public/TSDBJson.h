@@ -29,7 +29,7 @@ public:
     friend class TSDBJsonProvider;
 };
 
-class TSDBJsonProvider
+class TC_GAME_API TSDBJsonProvider
 {
     virtual TSDBJson * get_json() = 0;
 public:
